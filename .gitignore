@@ -1,0 +1,19 @@
+# dependencies / build
+node_modules
+dist
+dev-dist
+*.tsbuildinfo
+
+# secrets
+.env
+.env.*
+!.env.example
+supabase/.env
+supabase/.temp
+supabase/.branches
+
+# misc
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
